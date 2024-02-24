@@ -1,4 +1,3 @@
-Predict diamond prices with machine learning! This end-to-end project includes automated feature engineering, model selection, and a web application for seamless prediction.
 
 https://github.com/Rahul4112002/Diamond-Price-Prediction/assets/124488758/8fc6664a-168f-4e4f-94df-4401be4c871f
 
