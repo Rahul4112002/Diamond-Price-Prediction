@@ -6,6 +6,10 @@ https://github.com/Rahul4112002/Diamond-Price-Prediction/assets/124488758/8fc666
 
 This repository contains an end-to-end machine learning project for predicting diamond prices. The project includes automated feature engineering, model selection, and a web application for predicting diamond prices.
 
+## Deployed Project
+
+Check out the deployed project at [https://diamond-price-prediction-4g0b.onrender.com](https://diamond-price-prediction-4g0b.onrender.com).
+
 ## Project Structure
 
 - `artifacts`: Directory containing saved models and other artifacts.
