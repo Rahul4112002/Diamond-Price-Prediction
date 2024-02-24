@@ -27,14 +27,14 @@ This repository contains an end-to-end machine learning project for predicting d
 
 ## Repository Link
 
-[https://github.com/devarshee97/Diamond-Price-Prediction.git](https://github.com/devarshee97/Diamond-Price-Prediction.git)
+[https://github.com/Rahul4112002/Diamond-Price-Prediction.git](https://github.com/Rahul4112002/Diamond-Price-Prediction.git)
 
 ## How to Use
 
 1. Clone the repository:
 
    ```
-   git clone https://github.com/devarshee97/Diamond-Price-Prediction.git
+   git clone https://github.com/Rahul4112002/Diamond-Price-Prediction.git
    ```
 
 2. Navigate to the project directory:
