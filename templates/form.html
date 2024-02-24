@@ -122,11 +122,13 @@
         <input type="submit" value="Submit" />
       </form>
 
+      {% if final_result %}
       <h3>
         <span>Price of Diamond is</span>
-        <i class="fa-solid fa-dollar-sign" style="color: green"></i
-        >{{final_result}}
+        <i class="fa-solid fa-dollar-sign" style="color: green"></i>
+        {{ final_result }}
       </h3>
+      {% endif %}
     </div>
   </body>
 </html>

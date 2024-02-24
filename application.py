@@ -10,7 +10,7 @@ app=application
 def home_page():
     return render_template('form.html')
 
-@app.route('/predict',methods=['GET','POST'])
+@app.route('/predict_datapoint',methods=['GET','POST'])
 
 def predict_datapoint():
     if request.method=='GET':
