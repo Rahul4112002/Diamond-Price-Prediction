@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #ebebeb;
-  background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+  background: linear-gradient(45deg, #d2001a, #7462ff, #23d5ab);
   background-size: 300% 300%;
   animation: color 12s ease-in-out infinite;
 }
@@ -62,6 +62,8 @@ body {
 }
 label {
   font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-weight: 550;
 }
 input {
   font-family: "Times New Roman", Times, serif;
@@ -92,10 +94,26 @@ h3 {
   font-size: 30px;
 }
 .icon i {
-  font-size: 80px;
-  margin-left: 40%;
+  font-size: 85px;
+  margin-left: 42%;
 }
 span {
   color: black;
   font-family: cursive;
+}
+
+@media (min-width: 768px) {
+  .form-group {
+    width: 45%; /* Adjusted for responsiveness */
+    float: left;
+    padding-left: 17px;
+  }
+
+  .form-group:nth-child(odd) {
+    clear: both; /* Clearing float on odd elements */
+  }
+
+  .form-group:last-child {
+    float: right; /* Adjusted for responsiveness */
+  }
 }
