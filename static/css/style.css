@@ -1,101 +1,101 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ebebeb;
-    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
-    background-size: 300% 300%;
-    animation: color 12s ease-in-out infinite;
+  font-family: Arial, sans-serif;
+  background-color: #ebebeb;
+  background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+}
+@keyframes color {
+  0% {
+    background-position: 0 50%;
   }
-  @keyframes color {
-    0% {
-      background-position: 0 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0 50%;
-    }
+  50% {
+    background-position: 100% 50%;
   }
-  .card {
-    background-color: rgb(255, 255, 255, 0.5);
-    border-radius: 8px;
-    border: white solid 3px;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    margin: 80px auto;
-    padding: 20px;
+  100% {
+    background-position: 0 50%;
   }
-  .form-group {
-    margin-bottom: 15px;
-    width: 45%;
-    float: left;
-    padding-left: 17px;
-  }
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  .form-group input,
-  .form-group select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  .form-group select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 10px);
-    background-position-y: center;
-  }
-  .form-group:last-child {
-    float: right;
-  }
-  .form-group:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  label {
-    font-family: cursive;
-  }
-  input {
-    font-family: cursive;
-  }
-  input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 20px;
-  }
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  h2 {
-    text-align: center;
-    font-family: cursive;
-    font-size: 45px;
-    margin-top: 10px;
-  }
-  h3 {
-    text-align: center;
-    color: rgb(244, 48, 48);
-    font-size: 30px;
-  }
-  .icon i {
-    font-size: 80px;
-    margin-left: 40%;
-  }
-  span{
-    color: black;
-    font-family: cursive;
-  }
+}
+.card {
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 8px;
+  border: white solid 3px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+  width: 45%;
+  float: left;
+  padding-left: 17px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.form-group select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+}
+.form-group:last-child {
+  float: right;
+}
+.form-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+}
+input {
+  font-family: "Times New Roman", Times, serif;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+h2 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 45px;
+  margin-top: 10px;
+}
+h3 {
+  text-align: center;
+  color: rgb(244, 48, 48);
+  font-size: 30px;
+}
+.icon i {
+  font-size: 80px;
+  margin-left: 40%;
+}
+span {
+  color: black;
+  font-family: cursive;
+}
